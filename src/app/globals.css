@@ -19,3 +19,10 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* In styles/globals.css */
+.bg-pharmacy {
+  background-image: url('/pharmacy.png'); /* Adjust the path as necessary */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-size: cover; /* Ensures the image covers the entire area */
+}
