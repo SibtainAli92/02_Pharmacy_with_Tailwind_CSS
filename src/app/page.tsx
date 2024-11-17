@@ -1,10 +1,10 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-black bg-pharmacy">
-      <div className="max-w-3xl mx-auto p-6 bg-white shadow-lg [border-radius:50px_50px_50px_50px]">
-        <div className="text-content ">
+      <div className="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-[50px]">
+        <div className="text-content mb-6">
           <h1 className="text-3xl font-bold mb-4 text-center text-black font-[math]">
             Your Health, Our Priority: Welcome to Mashah Allah Pharmacy
           </h1>
